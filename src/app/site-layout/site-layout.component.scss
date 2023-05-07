@@ -1,0 +1,370 @@
+.header{
+    background-image: url(../../assets/hero_image.png);
+    height: 100vh;
+
+    // background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+   margin: 0px 166px; 
+}
+
+.header-line{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 25px;
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover{
+    color: #805bd6;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+.cart {
+    margin-left:45px;
+    position: relative;
+    height: 50px;
+    border-right: #fff solid 2px;
+}
+
+.cart-img{
+    position: absolute;
+    top: 18px;
+    right: 10px
+}
+
+.num{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+
+.num:hover{
+    text-decoration: none;
+    color: #805bd6;
+    font-weight: 700;
+}
+
+.phone-text{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.phone-holder{
+    display: flex;
+    align-items: center;
+}
+
+.phone{
+    margin-left: 20px;
+}
+
+.button{
+    background: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 19px 14px 18px;
+    font-weight: 700;
+    transition: background 0.3s linear;
+}
+
+.button:hover{
+    background: #805bd6;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 19px 14px 18px;
+    font-weight: 700;
+}
+
+.header-down{
+    position: relative;
+}
+.header-title{
+    position: absolute;
+    left: 0;
+    color: #D67E35;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 12px;
+}
+
+.header-subtitle{
+    color: #D67E35;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header-suptitle{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-suptitle:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 176px;
+    left: 339px;
+}
+
+.header-suptitle:before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 176px;
+    left: 80px;
+}
+
+.header-button{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 14px 28px 14px 27px;
+    text-decoration: none;
+    background-color: #FF7400;
+    transition: background-color 0.3s linear;
+}
+
+.header-button:hover{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 14px 28px 14px 27px;
+    text-decoration: none;
+    background-color: #805bd6;
+}
+
+.cards-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 349px;
+    height: 328px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 10px 10px;
+
+}
+
+
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    
+    margin: auto;
+    margin-top: 35px;
+    width: 126px;
+    height: 104px;
+}
+
+.card-desc{
+    text-align: center;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.card-title span{
+    color: #D67E35;
+}
+
+.history{
+    margin-top: 166px;
+}
+
+.history-title{
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+
+}
+
+.history-title span{
+    color: #D67E34;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+
+
+}
+
+.history-desc{
+    color: #656363;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+}
+
+.history-number{
+    width: 444px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.number-item{
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC9060;
+}
+
+.number-item span{
+    display: block;
+    color: #000;
+    font-size: 20px;
+}
+
+.history-holder{
+    display: flex;
+    margin-bottom: 250px;
+    // justify-content: space-around;
+}
+
+.history-images{
+    position: relative;
+}
+
+.images-1{
+    position: absolute;
+    top: 54px;
+    left:211px;
+    z-index: 1;
+}
+.images-2{
+    position: absolute;
+    z-index: 2;
+    top: -92px;
+    left: 383px;
+}
+.images-4{
+    position: absolute;
+    z-index: 2;
+
+}
+
+.black-block{
+    background-image: url(../../assets/bg.png);
+    padding: 80px 0px;
+}
+
+.left-title{
+    color: #D67E34;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+
+.left-text{
+    color: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.right-btn{
+    background: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 19px 14px 18px;
+    font-weight: 700;
+    transition: background 0.3s linear;
+    height: 47px;
+    width: 157px;
+
+}
+
+.block-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dishes-title{
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    text-align: center;
+}
+
+.dishes-title span{
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    text-align: center;
+    color: #D67E35;
+}
+
+.dishes-images{
+    display: flex;
+}
+
+.burger-item{
+    display: flex;
+}
